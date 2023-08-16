@@ -18,6 +18,7 @@
 		8D76D0342A8D658700D729FE /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8D76D0332A8D658700D729FE /* SF-Pro-Display-Regular.otf */; };
 		8D76D0362A8D65AC00D729FE /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8D76D0352A8D65AC00D729FE /* SF-Pro-Display-Bold.otf */; };
 		8D76D03C2A8D6B2A00D729FE /* Font+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D76D03B2A8D6B2A00D729FE /* Font+.swift */; };
+		8D76D0432A8D961F00D729FE /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D76D0422A8D961F00D729FE /* PrimaryButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		8D76D0352A8D65AC00D729FE /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
 		8D76D0372A8D65C200D729FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D76D03B2A8D6B2A00D729FE /* Font+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+.swift"; sourceTree = "<group>"; };
+		8D76D0422A8D961F00D729FE /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		8D76D0232A8CFE5C00D729FE /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				8D76D0402A8D95F900D729FE /* Components */,
 				8D76D0242A8CFE6E00D729FE /* Splash */,
 				8D76D02D2A8D1B8F00D729FE /* Onboarding */,
 			);
@@ -143,6 +146,14 @@
 				8D76D03B2A8D6B2A00D729FE /* Font+.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8D76D0402A8D95F900D729FE /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8D76D0422A8D961F00D729FE /* PrimaryButton.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +238,7 @@
 				8D76D0282A8CFE8600D729FE /* SplashFeature.swift in Sources */,
 				8D76D02F2A8D1BC200D729FE /* OnboardingFeature.swift in Sources */,
 				8D76D0142A8CFD6400D729FE /* App.swift in Sources */,
+				8D76D0432A8D961F00D729FE /* PrimaryButton.swift in Sources */,
 				8D76D0312A8D1BCE00D729FE /* OnboardingView.swift in Sources */,
 				8D76D0262A8CFE7A00D729FE /* SplashView.swift in Sources */,
 			);
