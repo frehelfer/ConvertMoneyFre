@@ -10,6 +10,14 @@
 		8D76D0142A8CFD6400D729FE /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D76D0132A8CFD6400D729FE /* App.swift */; };
 		8D76D0182A8CFD6700D729FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D76D0172A8CFD6700D729FE /* Assets.xcassets */; };
 		8D76D01B2A8CFD6700D729FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D76D01A2A8CFD6700D729FE /* Preview Assets.xcassets */; };
+		8D76D0262A8CFE7A00D729FE /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D76D0252A8CFE7A00D729FE /* SplashView.swift */; };
+		8D76D0282A8CFE8600D729FE /* SplashFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D76D0272A8CFE8600D729FE /* SplashFeature.swift */; };
+		8D76D02B2A8CFEA800D729FE /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 8D76D02A2A8CFEA800D729FE /* ComposableArchitecture */; };
+		8D76D02F2A8D1BC200D729FE /* OnboardingFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D76D02E2A8D1BC200D729FE /* OnboardingFeature.swift */; };
+		8D76D0312A8D1BCE00D729FE /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D76D0302A8D1BCE00D729FE /* OnboardingView.swift */; };
+		8D76D0342A8D658700D729FE /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8D76D0332A8D658700D729FE /* SF-Pro-Display-Regular.otf */; };
+		8D76D0362A8D65AC00D729FE /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8D76D0352A8D65AC00D729FE /* SF-Pro-Display-Bold.otf */; };
+		8D76D03C2A8D6B2A00D729FE /* Font+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D76D03B2A8D6B2A00D729FE /* Font+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,6 +25,14 @@
 		8D76D0132A8CFD6400D729FE /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		8D76D0172A8CFD6700D729FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D76D01A2A8CFD6700D729FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8D76D0252A8CFE7A00D729FE /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		8D76D0272A8CFE8600D729FE /* SplashFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashFeature.swift; sourceTree = "<group>"; };
+		8D76D02E2A8D1BC200D729FE /* OnboardingFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFeature.swift; sourceTree = "<group>"; };
+		8D76D0302A8D1BCE00D729FE /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		8D76D0332A8D658700D729FE /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
+		8D76D0352A8D65AC00D729FE /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
+		8D76D0372A8D65C200D729FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D76D03B2A8D6B2A00D729FE /* Font+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D76D02B2A8CFEA800D729FE /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,7 +66,11 @@
 		8D76D0122A8CFD6400D729FE /* ConvertMoneyFre */ = {
 			isa = PBXGroup;
 			children = (
+				8D76D0372A8D65C200D729FE /* Info.plist */,
 				8D76D0132A8CFD6400D729FE /* App.swift */,
+				8D76D0392A8D69E600D729FE /* Helpers */,
+				8D76D0322A8D649500D729FE /* Resources */,
+				8D76D0232A8CFE5C00D729FE /* Screens */,
 				8D76D0172A8CFD6700D729FE /* Assets.xcassets */,
 				8D76D0192A8CFD6700D729FE /* Preview Content */,
 			);
@@ -62,6 +83,66 @@
 				8D76D01A2A8CFD6700D729FE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8D76D0232A8CFE5C00D729FE /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				8D76D0242A8CFE6E00D729FE /* Splash */,
+				8D76D02D2A8D1B8F00D729FE /* Onboarding */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		8D76D0242A8CFE6E00D729FE /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				8D76D0272A8CFE8600D729FE /* SplashFeature.swift */,
+				8D76D0252A8CFE7A00D729FE /* SplashView.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		8D76D02D2A8D1B8F00D729FE /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				8D76D02E2A8D1BC200D729FE /* OnboardingFeature.swift */,
+				8D76D0302A8D1BCE00D729FE /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		8D76D0322A8D649500D729FE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D76D0382A8D68CD00D729FE /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8D76D0382A8D68CD00D729FE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8D76D0352A8D65AC00D729FE /* SF-Pro-Display-Bold.otf */,
+				8D76D0332A8D658700D729FE /* SF-Pro-Display-Regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8D76D0392A8D69E600D729FE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8D76D03A2A8D69EB00D729FE /* Extensions */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		8D76D03A2A8D69EB00D729FE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8D76D03B2A8D6B2A00D729FE /* Font+.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,6 +161,9 @@
 			dependencies = (
 			);
 			name = ConvertMoneyFre;
+			packageProductDependencies = (
+				8D76D02A2A8CFEA800D729FE /* ComposableArchitecture */,
+			);
 			productName = ConvertMoneyFre;
 			productReference = 8D76D0102A8CFD6400D729FE /* ConvertMoneyFre.app */;
 			productType = "com.apple.product-type.application";
@@ -108,6 +192,9 @@
 				Base,
 			);
 			mainGroup = 8D76D0072A8CFD6400D729FE;
+			packageReferences = (
+				8D76D0292A8CFEA800D729FE /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = 8D76D0112A8CFD6400D729FE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -123,6 +210,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D76D01B2A8CFD6700D729FE /* Preview Assets.xcassets in Resources */,
+				8D76D0342A8D658700D729FE /* SF-Pro-Display-Regular.otf in Resources */,
+				8D76D0362A8D65AC00D729FE /* SF-Pro-Display-Bold.otf in Resources */,
 				8D76D0182A8CFD6700D729FE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -134,7 +223,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D76D03C2A8D6B2A00D729FE /* Font+.swift in Sources */,
+				8D76D0282A8CFE8600D729FE /* SplashFeature.swift in Sources */,
+				8D76D02F2A8D1BC200D729FE /* OnboardingFeature.swift in Sources */,
 				8D76D0142A8CFD6400D729FE /* App.swift in Sources */,
+				8D76D0312A8D1BCE00D729FE /* OnboardingView.swift in Sources */,
+				8D76D0262A8CFE7A00D729FE /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +365,7 @@
 				DEVELOPMENT_TEAM = T68CB4R9H5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ConvertMoneyFre/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -300,6 +395,7 @@
 				DEVELOPMENT_TEAM = T68CB4R9H5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ConvertMoneyFre/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -340,6 +436,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8D76D0292A8CFEA800D729FE /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8D76D02A2A8CFEA800D729FE /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8D76D0292A8CFEA800D729FE /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8D76D0082A8CFD6400D729FE /* Project object */;
 }
