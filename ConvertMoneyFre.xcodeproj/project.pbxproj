@@ -7,16 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8D76D0142A8CFD6400D729FE /* ConvertMoneyFreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D76D0132A8CFD6400D729FE /* ConvertMoneyFreApp.swift */; };
-		8D76D0162A8CFD6400D729FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D76D0152A8CFD6400D729FE /* ContentView.swift */; };
+		8D76D0142A8CFD6400D729FE /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D76D0132A8CFD6400D729FE /* App.swift */; };
 		8D76D0182A8CFD6700D729FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D76D0172A8CFD6700D729FE /* Assets.xcassets */; };
 		8D76D01B2A8CFD6700D729FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D76D01A2A8CFD6700D729FE /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8D76D0102A8CFD6400D729FE /* ConvertMoneyFre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConvertMoneyFre.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D76D0132A8CFD6400D729FE /* ConvertMoneyFreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertMoneyFreApp.swift; sourceTree = "<group>"; };
-		8D76D0152A8CFD6400D729FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8D76D0132A8CFD6400D729FE /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		8D76D0172A8CFD6700D729FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D76D01A2A8CFD6700D729FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,8 +49,7 @@
 		8D76D0122A8CFD6400D729FE /* ConvertMoneyFre */ = {
 			isa = PBXGroup;
 			children = (
-				8D76D0132A8CFD6400D729FE /* ConvertMoneyFreApp.swift */,
-				8D76D0152A8CFD6400D729FE /* ContentView.swift */,
+				8D76D0132A8CFD6400D729FE /* App.swift */,
 				8D76D0172A8CFD6700D729FE /* Assets.xcassets */,
 				8D76D0192A8CFD6700D729FE /* Preview Content */,
 			);
@@ -137,8 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D76D0162A8CFD6400D729FE /* ContentView.swift in Sources */,
-				8D76D0142A8CFD6400D729FE /* ConvertMoneyFreApp.swift in Sources */,
+				8D76D0142A8CFD6400D729FE /* App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

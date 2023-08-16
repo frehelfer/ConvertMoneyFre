@@ -11,7 +11,7 @@ import SwiftUI
 struct ConvertMoneyFreApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            
         }
     }
 }
