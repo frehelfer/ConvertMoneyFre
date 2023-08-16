@@ -12,21 +12,26 @@ struct OnboardingView: View {
     let store: StoreOf<OnboardingFeature>
     
     var body: some View {
-        ZStack {
-            Color.cGreenDark.ignoresSafeArea()
-            
-            VStack {
-                Spacer()
+        WithViewStore(self.store, observe: { $0 }) { viewStore in
+            ZStack {
+                Color.cGreenDark.ignoresSafeArea()
                 
-                imageAndTitle
-                
-                Spacer()
-                
-                bottomSheet
+                VStack {
+                    Spacer()
+                    
+                    imageAndTitle
+                    
+                    Spacer()
+                    
+                    bottomSheet(store: viewStore)
+                }
+                .ignoresSafeArea(edges: .bottom)
             }
-            .ignoresSafeArea(edges: .bottom)
+            .onAppear {
+                viewStore.send(.onAppear)
+            }
+            .toolbarColorScheme(.light, for: .navigationBar)
         }
-        .toolbarColorScheme(.light, for: .navigationBar)
     }
 }
 
@@ -55,7 +60,7 @@ private extension OnboardingView {
         .padding(.horizontal, 12)
     }
     
-    var bottomSheet: some View {
+    func bottomSheet(store viewStore: ViewStoreOf<OnboardingFeature>) -> some View {
         VStack(alignment: .leading, spacing: 22) {
             Text("Olá, \n vamos economizar?")
                 .font(.custom(Font.sanFrancisco, size: 32))
@@ -67,7 +72,7 @@ private extension OnboardingView {
                 .foregroundStyle(.black)
             
             Button {
-                //Action
+                viewStore.send(.startButtonTapped)
             } label: {
                 PrimaryButton(title: "COMEÇAR")
             }
